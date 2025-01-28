@@ -1,0 +1,271 @@
+/* Responsive Design */
+
+@media (max-width: 768px) {
+    .nav {
+        flex-direction: column;
+        align-items: end;
+        padding: 10px 20px;
+    }
+
+    .name {
+        margin: 25px 10px;
+        padding: 20px 5px;
+        flex-direction: column;
+    }
+
+    .section1 {
+        height: 80vh;
+    }
+
+    .leftsection .name-content h2 {
+        font-size: 30px;
+    }
+
+    .leftsection .name-content .I_am {
+        font-size: 25px;
+    }
+
+    .leftsection .img-container {
+        width: 350px;
+        height: 350px;
+    }
+
+    .rightsection .name-content {
+        margin: 5px;
+    }
+
+    .img-container .self {
+        width: 500px;
+        right: -70px;
+        top: -95px;
+        position: absolute;
+    }
+
+    .nav .right ul li a {
+        position: relative;
+        margin: 20px 0;
+    }
+
+    .nav .right ul li {
+        margin: 10px 15px;
+    }
+
+    .nav .right ul {
+        flex-direction: column;
+    }
+
+    .nav .right {
+        background-color: rgba(30, 30, 44);
+        height: 90vh;
+        position: absolute;
+        left: -65%;
+        transition: all 0.8s ease-in-out;
+    }
+
+    header {
+        justify-content: center;
+        max-height: 15vh;
+    }
+
+    .menu {
+        display: inline-flex;
+        cursor: pointer;
+    }
+
+    .close-menu {
+        display: inline-flex;
+    }
+
+    .edu-details {
+        padding: 15px;
+        margin: 10px;
+        margin-top: 70px;
+    }
+
+    .edu-details h2,
+    .edu-details h3 {
+        font-size: 1.2rem;
+    }
+
+    .edu-details p {
+        font-size: 0.9rem;
+    }
+
+    .skill-section {
+        padding: 20px 15px;
+    }
+
+    .skill-section h2 {
+        font-size: 35px;
+    }
+
+    .skill-section h3 {
+        font-size: 24px;
+    }
+
+    .skill-section .front-end p,
+    .skill-section .back-end p {
+        font-size: 16px;
+        padding: 8px 15px;
+        width: 117px;
+    }
+
+    .skill-section .tools .names-tools {
+        margin: 30px;
+    }
+
+    .database ul,
+    .other ul,
+    .design-tools ul {
+        margin-left: 40px;
+    }
+
+    .main-project .project-title img,
+    .mini-project .project-title img {
+        align-items: center;
+        height: 50%;
+    }
+
+    .projects .project-container .main-project .project-title{
+        align-items: center;
+    }
+}
+
+@media (max-width: 720px) {
+    .leftsection .img-container {
+        width: 450px;
+        height: 450px;
+    }
+
+    .img-container .self {
+        width: 550px;
+        right: -25px;
+    }
+
+    .section1 {
+        height: 80vh;
+    }
+
+    .edu-details h2,
+    .edu-details h3 {
+        font-size: 32px;
+    }
+
+    .edu-details p {
+        font-size: 20px;
+    }
+
+    .skill-section {
+        margin: 20px auto;
+        margin-top: 0;
+    }
+
+    .section2 {
+        padding-top: 0;
+    }
+
+    .edu-details {
+        margin-top: 50px;
+    }
+
+    .edu-details li {
+        margin-bottom: 25px;
+    }
+
+    .skill-section h3 {
+        padding-left: 50px;
+    }
+
+    .skill-section .tools .names-tools {
+        margin: 30px 60px;
+    }
+    
+
+    /* .main-project .project-title img {
+        width: 90px;
+
+    } */
+
+    .database ul,
+    .other ul,
+    .design-tools ul {
+        margin-left: 50px;
+    }
+
+    .contact-section {
+        margin-bottom: 250px;
+    }
+
+    .contact-container {
+        flex-direction: column;
+    }
+
+    .contact-form {
+        padding: 0;
+        margin: 0;
+    }
+
+    .contact-form {
+        margin: 10px 0;
+    }
+
+    .contact-form button {
+        margin: auto;
+    }
+
+    .mail-phone {
+        margin: 0 15px;
+        margin-left: 30px;
+    }
+
+    .mail-phone .mail-img img {
+        right: -25px;
+        top: -57px;
+    }
+
+    .projectHr {
+        width: 90%;
+        margin: 50px auto;
+    }
+
+    .mini-project .project-title {
+        text-align: center;
+    }
+}
+
+@media (max-width: 400px) {
+    body {
+        margin: auto;
+    }
+
+    .rightsection .name-content h2 {
+        font-size: 30px;
+    }
+
+    .leftsection .img-container {
+        width: 320px;
+        height: 320px;
+    }
+
+    .img-container .self {
+        width: 500px;
+        right: -60px;
+    }
+
+    .section1 {
+        height: 72vh;
+    }
+
+    .skill-section h4 {
+        width: 100%;
+    }
+
+    .rightsection .name-content .I_am {
+        font-size: 20px;
+    }
+
+    .menu {
+        left: 12px;
+    }
+
+}
