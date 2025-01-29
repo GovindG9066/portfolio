@@ -611,7 +611,7 @@ li p .score {
 .mail-phone {
     display: flex;
     align-items: center;
-    margin: 0 150px;
+    justify-content: center;
     gap: 30px;
 }
 

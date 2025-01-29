@@ -65,7 +65,7 @@ let topslider=document.querySelector(".top-slider");
 
 const updateFooterVisibility = () => {
     let position = trigger.getBoundingClientRect();
-    // console.log(`bottom:${position.bottom}`);
+    console.log(`bottom:${position.bottom}`);
 
     let positionHr=firstHr.getBoundingClientRect();
 
@@ -97,13 +97,14 @@ const updateFooterVisibility = () => {
         }
     }
     else if (largescreen) {
-        if (position.bottom <=-140 ) { //980
+        if (position.bottom <= 980 ) { //980 -140
             footer.style.bottom = "0";
             footer.style.opacity = "100%";
         } else {
             footer.style.bottom = "-100%";
         }
     }
+    
 };
 
 window.addEventListener("scroll", updateFooterVisibility);
