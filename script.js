@@ -89,7 +89,7 @@ const updateFooterVisibility = () => {
         }
     }
     else if (smallscreen) {
-        if (position.bottom <= 1370 ) {
+        if (position.bottom <= 825 ) { //1370
             footer.style.bottom = "0";
             footer.style.opacity = "100%";
         } else {
@@ -97,7 +97,7 @@ const updateFooterVisibility = () => {
         }
     }
     else if (largescreen) {
-        if (position.bottom <= 980 ) { //980 -140
+        if (position.bottom <= 980 ) { //980 -140 825
             footer.style.bottom = "0";
             footer.style.opacity = "100%";
         } else {
