@@ -219,6 +219,10 @@
         width: 90%;
         margin: 50px auto;
     }
+    hr {
+        width: 90vw;
+        margin: 30px auto;
+    }
 
     .mini-project .project-title {
         text-align: center;
