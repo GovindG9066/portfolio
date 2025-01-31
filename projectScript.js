@@ -36,7 +36,7 @@ function project(num,Title, Description, Technology, Features, Status, GithubLin
 project(
     "1.",
     "Tic-tac-toe (Simple Game):",
-    "A clone of Amazon’s e-commerce platform with product browsing, user authentication, and cart functionality",
+    "This is the simple game of the tic tac toe were i try my best to do this game best",
     ["HTML","CSS","JavaScript","Github(for Storing the code)","Vercel (Deployment)"],
     ["Allow two players to connect online and play in real-time using WebSockets.","Implement an AI player with varying difficulty levels (easy, medium, hard) using algorithms like Minimax.","Add a countdown timer for each turn to increase the challenge.","Provide options to change the game's visual themes (e.g., light mode, dark mode, colorful themes).","Add sound effects for moves, wins, and draws, as well as animations for marking the cells."],
     "The Tic-Tac-Toe game is functional with basic gameplay for two local players. Features like AI opponent, online multiplayer, and enhanced UI/UX are still under development and planned for future updates.",
