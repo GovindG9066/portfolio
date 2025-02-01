@@ -81,7 +81,9 @@ const updateFooterVisibility = () => {
     let largescreen = window.matchMedia("(max-width : 2560px)").matches;
 
     if (!smallscreen && !largescreen) {
-        if (position.bottom <= 460) {
+        console.log(position.bottom);
+        
+        if (position.bottom <= 460) { //460
             footer.style.bottom = "0";
             footer.style.opacity = "100%";
         } else {
@@ -89,7 +91,7 @@ const updateFooterVisibility = () => {
         }
     }
     else if (smallscreen) {
-        if (position.bottom <= 825 ) { //1370
+        if (position.bottom <= 340 ) { //1370 825
             footer.style.bottom = "0";
             footer.style.opacity = "100%";
         } else {
@@ -97,7 +99,7 @@ const updateFooterVisibility = () => {
         }
     }
     else if (largescreen) {
-        if (position.bottom <= 980 ) { //980 -140 825
+        if (position.bottom <= -150 ) { //980 -140 825
             footer.style.bottom = "0";
             footer.style.opacity = "100%";
         } else {
