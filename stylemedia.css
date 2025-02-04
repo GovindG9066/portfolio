@@ -161,6 +161,7 @@
     .skill-section {
         margin: 20px auto;
         margin-top: 0;
+        width: 90%;
     }
 
     .section2 {
@@ -284,5 +285,11 @@
     /* .contact-container */
     .projects{
         padding: 20px 23px;
+    }
+    .skill-section{
+        width: 90%;
+    }
+    .pro-lang{
+        display: block;
     }
 }

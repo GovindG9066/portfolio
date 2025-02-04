@@ -407,6 +407,9 @@ li p .score {
     color: #F5F5F5;
     margin-bottom: 16px;
 }
+.pro-lang{
+    display: flex;
+}
 
 .skill-section .front-end,
 .skill-section .back-end {
