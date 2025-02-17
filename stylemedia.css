@@ -244,6 +244,13 @@
     }
 }
 
+/* @media (max-width: 2550px){
+    .leftsection .img-container {
+        width: 800px;
+        height: 800px;
+    }
+} */
+
 /* @media (max-width: 400px) {
     body {
         margin: auto;

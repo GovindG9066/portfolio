@@ -1,6 +1,6 @@
 
 
-emailjs.init("GysBJMRMNkVc-8UF6");
+emailjs.init("T1j_ef6JPoC6Gp97O");
 const btn = document.getElementById('email-btn');
 
 document.getElementById('contactForm').addEventListener('submit',function(event) {
