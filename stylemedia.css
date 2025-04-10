@@ -7,38 +7,16 @@
         padding: 10px 20px;
     }
 
-    .name {
-        margin: 25px 10px;
-        padding: 20px 5px;
+    .home-section{
         flex-direction: column;
+        align-items: center;
+        height: 90vh;
     }
-
-    .section1 {
-        height: 80vh;
+    .photo-container{
+        width: 80vw;
     }
-
-    .leftsection .name-content h2 {
-        font-size: 30px;
-    }
-
-    .leftsection .name-content .I_am {
-        font-size: 25px;
-    }
-
-    .leftsection .img-container {
-        width: 350px;
-        height: 350px;
-    }
-
-    .rightsection .name-content {
-        margin: 5px;
-    }
-
-    .img-container .self {
-        width: 500px;
-        right: -70px;
-        top: -95px;
-        position: absolute;
+    .my-photo{
+       
     }
 
     .nav .right ul li a {
