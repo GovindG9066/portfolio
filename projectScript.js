@@ -33,6 +33,65 @@ function project(num,Title, Description, Technology, Features, Status, GithubLin
             </div>  `;
             projectContainer.appendChild(projectSection);
 }
+
+function mainProject(logo_img,project_name,description,technology,features,status,GithubLink,ViewLink) {
+    const main_project_container=document.querySelector(".main-project");
+    const mainprojectSection = document.createElement("div");
+    mainprojectSection.classList.add("main-project-section");
+
+    mainprojectSection.innerHTML=`
+        <h4 class="project-title"><img src="${logo_img}" alt="">${project_name}</h4>
+                <p class="project-description">"${description}"</p>
+
+                <div class="list-techno inside-heading">
+                    <h4>Technology Used:</h4>
+                    <ul>
+                         ${technology.map(mainTechno=>`<li>${mainTechno}</li>`).join("")}
+                    </ul>
+                </div>
+                <div class="feature-techno inside-heading">
+                    <h4>Features Implemented:</h4>
+                    <ul>
+                    ${features.map(mainFeatu=>`<li>${mainFeatu}</li>`).join("")}
+                    </ul>
+                </div>
+                <div class="status inside-heading">
+                    <h4>Project Status:</h4>
+                    <p>"${status}"</p>
+                </div>
+                <div class="main-project-link  inside-heading">
+                    <h4>Links:</h4>
+                    <div class="link">
+                        <a href="${GithubLink}">GitHub</a>
+                        <a href="${ViewLink}">view The site</a>
+                    </div>
+                </div>
+                <hr>`;
+                main_project_container.appendChild(mainprojectSection);
+
+}
+mainProject(
+    "image/locaLogo.png",
+    "LocaXchange (Local Marketplace Website)",
+    "LocaXchange is a local marketplace website built to allow users to buy and sell products within their community. The platform supports product listings, secure transactions, messaging, and ratings.",
+    ["HTML","CSS","JavaScript","Github(for Storing the code)","Vercel (Deployment)"],
+    ["User Registration and Login","Product Listing and Editing","Messaging between Buyers and Sellers","Review and Rating System","Secure Payment Integration"],
+    "Currently working on adding payment gateway integration and admin features.",
+    "https://github.com/GovindG9066/Tic-tac-toc",
+    "https://codepen.io/Govind-Gadekar/full/OPLreBo"
+);
+mainProject(
+    "image/Raintro.png",
+    "Raintro (Weather Forecast Web App)",
+    "Raintro is a responsive weather web application that provides real-time weather updates, dynamic city suggestions, and forecast data using OpenWeather and GeoDB APIs. It features a clean UI with animated weather cards and an intuitive user experience.",
+    ["HTML", "Tailwind CSS", "JavaScript", "GeoDB API", "OpenWeather API", "GitHub (for code)", "Vercel (Deployment)"],
+    ["Real-time Weather Updates", "Search with City Suggestions", "Responsive UI Design", "Location-based Weather Data", "Clean Weather Card Animation"],
+    "Planned to add a temperature unit switcher (°C/°F), weather-based background effects, and support for hourly forecasts.",
+    "https://github.com/GovindG9066/Raintro",
+    "https://raintro.vercel.app/"
+);
+
+
 project(
     "1.",
     "Tic-tac-toe (Simple Game):",
