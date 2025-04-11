@@ -15,9 +15,6 @@
     .photo-container{
         width: 80vw;
     }
-    .my-photo{
-       
-    }
 
     .nav .right ul li a {
         position: relative;
@@ -106,6 +103,13 @@
 
     .projects .project-container .main-project .project-title{
         align-items: center;
+    }
+    .footer{
+
+    }
+    .footer-menu{
+        /* display: grid;
+        grid-template-columns: repeat(3,1fr); */
     }
 }
 
