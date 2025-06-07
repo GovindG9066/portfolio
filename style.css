@@ -629,6 +629,7 @@ li p .score {
     background-color: #007bff;
     width: 70%;
     margin: auto;
+    text-align: center;
     color: white;
     padding: 10px 20px;
     text-decoration: none;
@@ -638,6 +639,8 @@ li p .score {
 }
 .resume-button:hover {
     background-color: #0056b3;
+    color: #ffa500;
+    transition: all 0.3s ease-in-out;
 }
 
 
