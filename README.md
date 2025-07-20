@@ -1,5 +1,7 @@
 # 🌟 Govind Dagadu Gadekar - Developer Portfolio
 
+> 🚧 **Note:** This portfolio is currently **under development**. Some updates and enhancements are in progress. Stay tuned for exciting features!
+
 Welcome to my portfolio repository!  
 I'm **Govind Dagadu Gadekar**, a passionate **Web Developer** with a strong foundation in both frontend and backend technologies. I enjoy building **responsive**, **user-friendly**, and **functional** web applications, and I'm always eager to learn and grow.
 
@@ -28,7 +30,8 @@ I'm **Govind Dagadu Gadekar**, a passionate **Web Developer** with a strong foun
 
 ### 🌐 [LocaXchange](#)
 *A platform for location-based exchanges.*  
-📌 **Status:** In Development
+📌 **Status:** In Development  
+🛠 **Note:** More features and polish coming soon.
 
 ---
 
@@ -63,5 +66,3 @@ Connects blood donors with emergency contacts in urgent situations.
 
 ## 🔥 Motto
 > *"Always learning, building, and exploring new technologies!"*
-
----
