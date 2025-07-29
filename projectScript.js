@@ -76,7 +76,7 @@ mainProject(
     "LocaXchange is a local marketplace website built to allow users to buy and sell products within their community. The platform supports product listings, secure transactions, messaging, and ratings.",
     ["HTML","CSS","JavaScript","Github(for Storing the code)","Vercel (Deployment)"],
     ["User Registration and Login","Product Listing and Editing","Messaging between Buyers and Sellers","Review and Rating System","Secure Payment Integration"],
-    "Currently working on adding payment gateway integration and admin features.",
+    "🚧 LocaXchange is currently under development and will be available soon.",
     "https://github.com/GovindG9066/Tic-tac-toc",
     "https://codepen.io/Govind-Gadekar/full/OPLreBo"
 );
