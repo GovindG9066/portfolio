@@ -929,18 +929,42 @@ li p .score {
 }
 
 .new_footer{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     margin: auto;
     margin-bottom: 100px;
     width: 95vw;
-    display: flex;
-    justify-content: center;
-    /* align-items: center; */
-    flex-direction: column;
     border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    background-color: rgb(21, 22, 42);
 
 }
-.new_footer a{
+.new_footer .upper{
+    border: 2px solid red;
+    width: 100%;
+}
+
+.new_footer .upper .upper-left{
+
+}
+
+.new_footer .upper .upper-right{
+    
+}
+
+.new_footer .left{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 15px;
+    
+}
+.new_footer .right{
+    width: 50%;
+}
+.new_footer .right img{
+    width: 100px;
+}
+.new_footer .left  a{
     color: white;
     text-decoration: none;
 }
