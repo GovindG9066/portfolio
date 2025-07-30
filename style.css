@@ -131,8 +131,9 @@ header {
     justify-content: center;
     align-items: center;
     position: relative;
-    transition: all 0.5s ease-in;
+    transition: all 0.2s ease-in;
     margin: auto;
+    border: 1px solid #FFFAFA;
 }
 .ring {
     position: absolute;
@@ -152,7 +153,7 @@ header {
 
 .photo-container:hover{
     filter: drop-shadow(0 0 10px gold);
-    transform: scale(1.2);
+    transform: scale(1.08);
 }
 
 /* .my-photo{
@@ -163,13 +164,20 @@ header {
     object-position: 95% 0%;
     transform: scale(1.2);   
 } */
-.my-photo {
+
+/* .my-photo {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    object-position: 80% center; /* Face thoda right me he to ye perfect balance dega */
+    object-position:65% center; 
     transform: scale(1.2);
-}
+} */
+ .my-photo{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    
+ }
 .coder-image{
     width: 70%;
     height: 40%;
