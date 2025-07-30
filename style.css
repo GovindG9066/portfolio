@@ -944,14 +944,15 @@ li p .score {
 }
 
 .new_footer .upper .upper-left{
-
+    width: 50%;
 }
 
 .new_footer .upper .upper-right{
-    
+    width: 50%;
+
 }
 
-.new_footer .left{
+.new_footer .left ul li{
     display: flex;
     flex-direction: column;
     width: 50%;
