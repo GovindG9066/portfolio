@@ -928,3 +928,20 @@ li p .score {
     text-decoration: none;
 }
 
+.new_footer{
+    border: 2px solid red;
+    margin: auto;
+    margin-bottom: 100px;
+    width: 95vw;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction: column;
+    border-radius: 10px;
+
+}
+.new_footer a{
+    color: white;
+    text-decoration: none;
+}
+
