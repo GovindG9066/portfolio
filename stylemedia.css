@@ -104,21 +104,11 @@
     .projects .project-container .main-project .project-title{
         align-items: center;
     }
-    .footer{
-
-    }
-    .footer-menu{
-        /* display: grid;
-        grid-template-columns: repeat(3,1fr); */
-    }
+   
+ 
 }
 
 @media (max-width: 720px) {
-    /* .leftsection .img-container {
-        width: 450px;
-        height: 450px;
-    } */
-
     .img-container .self {
         width: 460px;
         right: -25px;
@@ -237,50 +227,6 @@
  }
 }
 
-/* @media (max-width: 2550px){
-    .leftsection .img-container {
-        width: 800px;
-        height: 800px;
-    }
-} */
-
-/* @media (max-width: 400px) {
-    body {
-        margin: auto;
-    }
-
-    .rightsection .name-content h2 {
-        font-size: 30px;
-    }
-
-    .leftsection .img-container {
-        width: 320px;
-        height: 320px;
-    }
-
-    .img-container .self {
-        width: 500px;
-        right: -60px;
-    }
-
-    .section1 {
-        height: 72vh;
-    }
-
-    .skill-section h4 {
-        width: 100%;
-    }
-
-    .rightsection .name-content .I_am {
-        font-size: 20px;
-    }
-
-    .menu {
-        left: 12px;
-    }
-
-} */
-
 @media (max-width: 400px){
     /* .contact-container */
     .projects{
@@ -292,4 +238,9 @@
     .pro-lang{
         display: block;
     }
+
+    .nav .left h1{
+        font-size: 20px;
+    }
+
 }
