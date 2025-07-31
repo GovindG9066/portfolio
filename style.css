@@ -931,12 +931,13 @@ li p .score {
 .footer-heading{
     margin-bottom: 10px;
     margin-left: 5px;
+    color: #0056b3;
 }
 
 .new_footer{
     /* border: 2px solid red; */
     margin: auto;
-    margin-bottom: 100px;
+    margin-bottom: 10px;
     width: 95vw;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
@@ -959,13 +960,13 @@ li p .score {
 .new_footer .upper .upper-left{
     width: 50%;
     margin-left: 20px;
+    text-align: center;
 }
 
 .new_footer .upper .upper-right{
     width: 50%;
     display: flex;
-    justify-content: center;
-    
+    justify-content: center;    
     
 }
 .new_footer .upper .upper-right img{
@@ -987,11 +988,27 @@ li p .score {
     padding: 5px;
     
 }
-.new_footer .down .left{
+/* .new_footer .down .left{
     padding: 25px;
     display: flex;
     justify-content: space-around;
-}
+    
+} */
+ .new_footer .down .left{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto auto;
+    
+ }
+ .new_footer .down .left ul{
+    margin: 10px auto ;
+
+ }
+ .new_footer .down .left ul li a:hover{
+    transition: all 0.3s ease-in-out;
+    transform: scale(1.2);
+    text-shadow: 0 0 20px #0056b3;
+ }
 .new_footer .right{
     width: 50%;
 }
@@ -999,11 +1016,12 @@ li p .score {
     width: 100px;
 }
 .new_footer .left  a{
-    color: white;
+    color: #F5F5F5;
     text-decoration: none;
 }
 .rights{
     text-align: center;
     counter-reset: #aaa;
+    margin-bottom: 10px;
 }
 

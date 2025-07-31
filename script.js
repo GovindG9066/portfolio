@@ -63,55 +63,6 @@ let footer = document.querySelector(".footer");
 let firstHr=document.querySelector("#firsthr");
 let topslider=document.querySelector(".top-slider");
 
-// const updateFooterVisibility = () => {
-//     let position = trigger.getBoundingClientRect();
-//     console.log(`bottom:${position.bottom}`);
-
-//     let positionHr=firstHr.getBoundingClientRect();
-
-//     if (positionHr.top < 200) {
-//         topslider.classList.add("show");
-//     }
-//     else{
-//         topslider.classList.remove("show");
-//     }
-    
-    
-//     let smallscreen = window.matchMedia("(max-width : 720px)").matches;
-//     let largescreen = window.matchMedia("(max-width : 2560px)").matches;
-
-//     if (!smallscreen && !largescreen) {
-//         console.log(position.bottom);
-        
-//         if (position.bottom <= 460) { //460
-//             footer.style.bottom = "0";
-//             footer.style.opacity = "100%";
-//         } else {
-//             footer.style.bottom = "-100%";
-//         }
-//     }
-//     else if (smallscreen) {
-//         if (position.bottom <= 340 ) { //1370 825
-//             footer.style.bottom = "0";
-//             footer.style.opacity = "100%";
-//         } else {
-//             footer.style.bottom = "-100%";
-//         }
-//     }
-//     else if (largescreen) {
-//         if (position.bottom <= -150 ) { //980 -140 825
-//             footer.style.bottom = "0";
-//             footer.style.opacity = "100%";
-//         } else {
-//             footer.style.bottom = "-100%";
-//         }
-//     }
-    
-// };
-
-// window.addEventListener("scroll", updateFooterVisibility);
-
-// updateFooterVisibility();
 
 
 
