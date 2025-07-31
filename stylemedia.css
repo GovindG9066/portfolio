@@ -229,8 +229,8 @@
 
 @media (max-width: 400px){
     /* .contact-container */
-    .projects{
-        padding: 20px 23px;
+    #projects{
+        padding: 20px 10px;
     }
     .skill-section{
         width: 90%;
@@ -241,6 +241,21 @@
 
     .nav .left h1{
         font-size: 20px;
+    }
+    .edu-details{
+        margin: auto;
+    }
+    .skill-section .tools .names-tools{
+        margin: 30px 5px;
+    }
+    .projects .project-container, .projects .project-container2{
+        padding: 10px;
+    }
+    .project-container .project-description , .project-container .inside-heading,.project-container .inside-heading p,.project-container2 .project-description,.project-container2 .mini-project .project-section .inside-heading,.project-container2 .inside-heading p{
+            margin: 2px 10px;
+    }
+    .contact .contact-container{
+        padding-left: 35px;
     }
 
 }
