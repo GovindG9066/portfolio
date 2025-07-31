@@ -995,4 +995,8 @@ li p .score {
     counter-reset: #aaa;
     margin-bottom: 10px;
 }
-
+.new_footer .footer-bannar video{
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
