@@ -720,6 +720,68 @@ li p .score {
     color: rgba(255, 255, 255, 0.7);
 }
 
+/* Certifications Section */
+#certifications {
+  padding: 40px;
+  /* background-color: #f9f9f9; */
+  color: #00BFFF;
+  text-align: center;
+}
+
+#certifications h2 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+/* Container for cards */
+.cert-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Individual certificate card */
+.cert-card {
+  background-color: #2C2F38;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  text-align: left;
+}
+
+.cert-card h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.cert-info {
+  color: #555;
+  margin: 0;
+}
+
+.cert-desc {
+  color: #777;
+  margin-top: 10px;
+}
+
+.cert-btn {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 8px 15px;
+  background-color: #4CAF50;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.cert-btn:hover {
+  background-color: #45a049;
+}
+
+
 .footer a {
     color: #D3D3D3;
     text-decoration: none;
