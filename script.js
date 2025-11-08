@@ -50,6 +50,7 @@ smoothscroll('a[href="#section2"]',150);
 smoothscroll('a[href="#about-me"]',100);
 smoothscroll('a[href="#contact"]',50);
 smoothscroll('a[href="#projects"]',50);
+smoothscroll('a[href="#certifications"]',50);
 
 
 

@@ -59,14 +59,16 @@ header {
 }
 
 .nav .right ul li {
-    margin: 0 15px;
+    margin: 0 5px;
+    /* margin: 0 15px; */
 }
 
 .nav .right ul li a {
     text-wrap: nowrap;
     text-decoration: none;
     color: #F5F5F5;
-    font-size: 16px;
+    font-size: 15px;
+    /* font-size: 16px; */
     font-weight: 500;
     padding: 5px 10px;
     border-radius: 5px;
