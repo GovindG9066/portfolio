@@ -70,16 +70,49 @@ function mainProject(logo_img,project_name,description,technology,features,statu
                 main_project_container.appendChild(mainprojectSection);
 
 }
+
 mainProject(
-    "image/locaLogo.png",
-    "LocaXchange (Local Marketplace Website)",
-    "LocaXchange is a local marketplace website built to allow users to buy and sell products within their community. The platform supports product listings, secure transactions, messaging, and ratings.",
-    ["HTML","CSS","JavaScript","Github(for Storing the code)","Vercel (Deployment)"],
-    ["User Registration and Login","Product Listing and Editing","Messaging between Buyers and Sellers","Review and Rating System","Secure Payment Integration"],
-    "🚧 LocaXchange is currently under development and will be available soon.",
-    "https://github.com/GovindG9066/Tic-tac-toc",
-    "https://codepen.io/Govind-Gadekar/full/OPLreBo"
+    "image/cash.png",
+    "MoneyMate (Expense Tracker Web App)",
+    "MoneyMate is a full-stack expense tracking application that helps users manage their incomes, expenses, history, and spending analysis with secure login, email verification, and interactive charts. The interface is fully responsive using TailwindCSS and provides a smooth user experience with real-time data updates.",
+    
+    [
+        "HTML5",
+        "CSS",
+        "Tailwind CSS (CDN)",
+        "JavaScript",
+        "Chart.js (CDN)",
+        "ReportLab (Python Library)-for download History in PDF format ",
+        "Font Awesome (CDN)",
+        "Django framework",
+        "sqllite3",
+        "SendGrid Email API",
+        "EmailJS API",
+        "GitHub (for source code)",
+        "Render (Deployment)"
+    ],
+    
+    [
+        "User Registration & Login System",
+        "Forgot Password with SendGrid Email API",
+        "Contact Form using EmailJS API",
+        "Real-time Balance & Expense Tracking",
+        "Edit Expense History with Verification",
+        "Daily / Weekly / Monthly Spend Filters",
+        "Interactive Graphs using Chart.js",
+        "Responsive UI using TailwindCSS",
+        "downloadable History reports (PDF)",
+        "Light and Dark mode button Functionality",
+        "Secure Data Storage in sqllite3"
+    ],
+
+    "Planned to add SMS/Email OTP verification for secure edits, bank/UPI linking for automated expense tracking, and AI-powered spending insights.",
+    
+    "https://github.com/GovindG9066/MoneyMate",
+    "https://moneymate-ij5j.onrender.com/"
 );
+
+
 mainProject(
     "image/Raintro.png",
     "Raintro (Weather Forecast Web App)",
